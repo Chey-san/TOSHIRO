@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             category: 'general',
             usage: `${client.config.prefix}help1 (command_name)`,
             dm: true,
-            aliases: ['h1']
+            aliases: ['general']
         })
     }
 
