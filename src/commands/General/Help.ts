@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 ────────────────
 -🄶🄴🄽🄴🅁🄰🄻 🧣
 
-🎐 ${this.client.config.prefix}Ｈｅｌｐ1 [${this.client.config.prefix}ｈ１]
+🎐 ${this.client.config.prefix}Ｈｅｌｐ1 [${this.client.config.prefix}ｈ1]
 
 -🅆🄴🄴🄱🅂 🧣
 
