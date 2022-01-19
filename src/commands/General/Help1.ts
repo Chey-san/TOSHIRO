@@ -8,12 +8,12 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'help',
+            command: 'help1',
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
             usage: `${client.config.prefix}help1 (command_name)`,
             dm: true,
-            aliases: ['general']
+            aliases: ['h1']
         })
     }
 
